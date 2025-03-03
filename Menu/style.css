@@ -12,7 +12,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  
 }
 
 /* Navbar styles */
@@ -38,12 +37,12 @@ body {
 .menu li {
   position: relative;
   padding: 10px 15px;
-  border: 1px solid transparent ;
+  border: 1px solid transparent;
 }
 .menu li:hover {
-  background-color: #EFF1FF;
-  border-radius:16px;
-  border: 1px solid #DDE1F9;
+  background-color: #eff1ff;
+  border-radius: 16px;
+  border: 1px solid #dde1f9;
 }
 
 .menu a {
@@ -100,7 +99,6 @@ body {
 
 .dropdown-menu a:hover {
   color: #007bff;
- 
 }
 
 /* Show dropdown on hover */
@@ -122,12 +120,17 @@ body {
   border-radius: 5px;
   font-weight: bold;
 }
-
+.signup:hover {
+  background: #0f0f34;
+  color: white;
+}
 .login {
   color: #222;
 }
-
 .signup {
+  color: #222;
+}
+.login:hover {
   background: #0f0f34;
   color: white;
 }
